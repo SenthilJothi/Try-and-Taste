@@ -1,7 +1,7 @@
 <div class="center jumbotron">
   <h1>Welcome to Try and Taste App</h1>
   <h2>Try new recipes and post it here for your friends. Learn new recipes from your friends and try it at your home!!!</h2>
-  <%= link_to "Sign up now!", "", class: "btn btn-lg btn-success" %>
+  <%= link_to "Sign up now!", register_path, class: "btn btn-lg btn-success" %>
 </div>
 
 <div class="row" >
@@ -14,10 +14,10 @@
   </div>
   <div class="col-lg-4">
     <h3 class="midrow">
-      View Recipes as Guest User
+      Sign in to your account
     </h3>
-    <h2 class="left">Browse and veiw recipes as a guest and Sign up later</h2>
-    <p><%= link_to "Browse Recipe Listings", "", class: "btn btn-warning btn-small" %></p>
+    <h2 class="left">Create and update your recipes. Like and dislike recipes.</h2>
+    <p><%= link_to "Log in to your account", login_path, class: "btn btn-warning btn-small" %></p>
   </div>
   <div class="col-lg-4">
     <h3 class="midrow">
